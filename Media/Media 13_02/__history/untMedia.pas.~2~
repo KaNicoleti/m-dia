@@ -1,0 +1,32 @@
+unit untMedia;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmCalcMedia = class(TForm)
+    btnCalc: TButton;
+    btnFechar: TButton;
+    procedure btnFecharClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCalcMedia: TfrmCalcMedia;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmCalcMedia.btnFecharClick(Sender: TObject);
+begin
+     close;
+end;
+
+end.

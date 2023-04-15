@@ -1,0 +1,45 @@
+object frmCalcMedia: TfrmCalcMedia
+  Left = 0
+  Top = 0
+  Caption = 'Calcular M'#233'dia'
+  ClientHeight = 299
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btnCalc: TButton
+    Left = 496
+    Top = 48
+    Width = 100
+    Height = 50
+    Caption = 'Calcular'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object btnFechar: TButton
+    Left = 496
+    Top = 192
+    Width = 100
+    Height = 50
+    Caption = 'Fechar'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    OnClick = btnFecharClick
+  end
+end

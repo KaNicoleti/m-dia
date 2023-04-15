@@ -1,0 +1,14 @@
+program prjMedia;
+
+uses
+  Vcl.Forms,
+  untMedia in 'untMedia.pas' {frmCalcMedia};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmCalcMedia, frmCalcMedia);
+  Application.Run;
+end.
